@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(105deg, black, rgb(87, 9, 136));
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 100px; */
+
+}
+
+.navbar h2 {
+    color: white;
+    font-weight: 50;
+    font-size: 20px;
+    padding: 0;
+    }
+
+
+
+.navbar .icons {
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+  
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 768px) {
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .cardright {
+    /* width: 45%;
+    height: 100%; */
+    padding-right: 30px;
+    margin-top: 2%;
+}
+
+.cardright img{
+    height: 100%;
+    width: 100%;
+    margin-top: 22%;
+}
+}
+
+.cardright {
+    /* width: 45%;
+    height: 100%; */
+    padding-right: 30px;
+    margin-top: -7%;
+}
+
+.cardleft {
+    display: flex;
+    padding-left: 30px;
+    /* width: 55%;
+    height: 100%; */
+  
+    color: white;
+}
+
+.cardleft h3 {
+  
+    font-weight: 100;
+    font-size: 20px;
+}
+@media(max-width:768){
+    .cardleft h3{
+        
+        text-align: center;
+        align-items: center
+    }
+}
+
+.about p {
+    padding-left: 30px;
+    font-weight: 70;
+    font-size: 60px;
+}
+
+.about h2 {
+    padding-left: 30px;
+    font-weight: 70;
+    font-size: 40px;
+    color: linear-gradient(135deg, black, rgb(223, 27, 27))
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+}
+.heading h1 {
+    margin-top: 30px;
+    font-weight: 70;
+    font-size: 60px;
+    color: white;
+    margin-left: 40%;
+}
+
+
+
+
+
+
+
+.container2 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+.cardr{
+    padding-left: 30px;
+}
+@media (max-width: 768px){
+    .aboutme{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .heading{
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-right: 150px;
+    
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .cardl{
+        width: 500px;
+       text-align:justify ;
+       padding: 20px;
+    }
+    .cardr{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 100px;
+        
+    }
+}
+
+.cardl p {
+    font-weight: 100;
+    font-size: 20px;
+   
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+}
+.techno{
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 20px;
+}
+.logoup{
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex: 100%;
+    margin-top: 20px;
+
+}
+.logodown{
+    justify-content: center;
+    gap: 20px;
+
+    margin-top: 20px;
+}
+
+
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 768px){
+    .container3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+     .techno {
+    width: 40%; /* 3 in one row with gap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+    .technology{
+       padding-left: 100px;
+    }
+    .logoup{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex:33%;
+        align-items: center;
+        padding-left: 90px;
+    }
+    .logodown{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 90px;
+    }
+    .textintechno{
+        padding-right:130px;
+    }
+}
+.logoup{
+    display: flex;
+    flex-direction: row;
+}
+.logodown{
+    display: flex;
+    flex-direction: row;
+}
+.experience{
+   
+    display: flex;
+    flex-direction: column;
+
+}
+.box1{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.experience p{
+    color: white;
+
+}
+.work p{
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+.date{
+    font-weight: 100;
+    font-size: 20px;
+}
+@media (max-width: 768px){
+    .experience{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+       
+    }
+    .textexperience{
+        padding-right: 100px;
+    }
+    .container4{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .date{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 100px;
+    }
+    .work{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 150px;
+    }
+} 
+
+.getintouch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.getintouch p{
+   
+    color: white;
+    font-weight: 70;
+   font-size: 60px;
+     
+}
+.getintouch h2{
+   
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+@media (max-width:768px){
+    .getintouch{
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+
+       
+    }
+    .textgit{
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-left: 160px;
+         
+    }
+    .details{
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-left: 160px;
+    }
+    
+}
+
+
+
+
+
+.fadeIn  {
+  opacity: 0;
+  transform: translate3d(-50px, 0, 0); /* ADDED - start x position as -50px */
+  cursor: pointer;
+  transition: 0.25s all ease-in-out;
+}
+
+.fadeIn:hover {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); /* ADDED - move x to 0 on hover */
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-left {
+  animation: fadeInLeft 1s ease-in-out;
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-right {
+  animation: fadeInRight 1s ease-in-out;
+}
